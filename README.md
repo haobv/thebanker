@@ -1,5 +1,5 @@
 # The Banker
 
-A supper app for Chip Chip Club
+A super app for Chip Chip Club
 
 
