@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "456933023726",
+    "firebase_url": "https://thebanker-afe2a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "thebanker-afe2a",
+    "storage_bucket": "thebanker-afe2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456933023726:android:d9f1b747e485189e6c78ff",
+        "android_client_info": {
+          "package_name": "com.example.my_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456933023726-tacnjgr43981tpv2j4uthn7kaa49292e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4-SM262if1DgVETcQEE_9mOyasUOcoXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456933023726-tacnjgr43981tpv2j4uthn7kaa49292e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "456933023726-49an97101va82r1lliaq068fh48bq2re.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "banker.gst.com"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
