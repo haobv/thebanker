@@ -8,6 +8,7 @@ import 'package:my_app/ranking.dart';
 import 'package:rounded_loading_button/rounded_loading_button.dart';
 import 'package:fab_circular_menu/fab_circular_menu.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import 'firebase_options.dart';
 import 'models/player.dart';
@@ -397,9 +398,15 @@ class _MyHomePageState extends State<MyHomePage> {
                   _showUpdatePriceDialog(context);
                 }),
             IconButton(
-                icon: const Icon(Icons.add, color: Colors.white),
+                icon: const Icon(Icons.person_add_outlined, color: Colors.white),
                 onPressed: () {
                   _showAddDialog(context);
+                }),
+            IconButton(
+                icon: const Icon(Icons.info_outline, color: Colors.white),
+                onPressed: () async {
+                  final Uri _url = Uri.parse('https://haobv.github.io/hbu-cv/');
+                  await launchUrl(_url, mode: LaunchMode.inAppWebView);
                 }),
             IconButton(
                 icon: const Icon(Icons.refresh_outlined, color: Colors.white),
