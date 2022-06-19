@@ -405,6 +405,7 @@ class _MyHomePageState extends State<MyHomePage> {
             IconButton(
                 icon: const Icon(Icons.info_outline, color: Colors.white),
                 onPressed: () async {
+                  fabKey.currentState?.close();
                   final Uri _url = Uri.parse('https://haobv.github.io/hbu-cv/');
                   await launchUrl(_url, mode: LaunchMode.inAppWebView);
                 }),
